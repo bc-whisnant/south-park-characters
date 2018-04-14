@@ -2,7 +2,7 @@
 
 var request = new XMLHttpRequest();
 
-request.open('GET', '//api.jsonbin.io/b/5ad0fec4003aec63328d2634', true );
+request.open('GET', '//api.jsonbin.io/b/5ad0fec4003aec63328d2634/1', true );
 
 request.onload = function() {
 
@@ -36,7 +36,6 @@ request.onload = function() {
         characterContainer.appendChild(individualCharacter);
         individualCharacter.appendChild(characterImage);
         individualCharacter.appendChild(characterName);        
-        individualCharacter.appendChild(characterBio);
     })
 
 }
