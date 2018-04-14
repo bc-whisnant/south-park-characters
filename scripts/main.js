@@ -60,21 +60,29 @@ document.querySelector('.normal').addEventListener('click', function() {
     var first = nodes[0];
     var firstImage = document.getElementsByTagName('img')[0];
     firstImage.setAttribute('src', 'images/cartman.png');
+    var firstName = document.getElementsByTagName('h3')[0];
+    firstName.innerText = 'Eric Cartman';
 
     var nodes = document.querySelectorAll('.character');
     var second = nodes[1];
     var secondImage = document.getElementsByTagName('img')[1];
     secondImage.setAttribute('src', 'images/kenny.png');
+    var second = document.getElementsByTagName('h3')[1];
+    second.innerText = 'Kenny McCormick';
 
     var nodes = document.querySelectorAll('.character');
     var third = nodes[2];
     var thirdImage = document.getElementsByTagName('img')[2];
     thirdImage.setAttribute('src', 'images/kyle.png');
+    var third = document.getElementsByTagName('h3')[2];
+    third.innerText = 'Kyle Broflovski';
 
     var nodes = document.querySelectorAll('.character');
     var fourth = nodes[3];
     var fourthImage = document.getElementsByTagName('img')[3];
     fourthImage.setAttribute('src', 'images/stan.png');
+    var fourth = document.getElementsByTagName('h3')[3];
+    fourth.innerText = 'Stan Marsh';
     
 });
 
