@@ -10,13 +10,22 @@
     margin-top: 10%;
 }
 
+.character:first-child {
+    margin-top: 11.25%;
+}
+
 .character img {
     max-width: 100%;
     height: auto;
 }
 
-.buttons {
+.button-container {
     clear:both;
     text-align: center;
     margin: 4% auto;
 }
+
+button {
+    margin: 0 1%;
+}
+
