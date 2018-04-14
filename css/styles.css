@@ -1,6 +1,7 @@
 .character-container {
     margin: 0 auto;
     height: 400px;
+    width: 960px;
 }
 
 .character {
