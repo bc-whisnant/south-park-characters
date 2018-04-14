@@ -1,0 +1,22 @@
+.character-container {
+    margin: 0 auto;
+    height: 400px;
+}
+
+.character {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.character img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons {
+    clear:both;
+    text-align: center;
+    margin: 4% auto;
+}

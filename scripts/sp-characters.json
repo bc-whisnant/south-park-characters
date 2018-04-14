@@ -1,0 +1,24 @@
+{
+    "characters": [
+        {
+            "name": "Eric Cartman",
+            "description": "Cartman is sometimes the main antagonist of an episode.",
+            "image": "images/cartman.png"
+        },
+        {
+            "name": "Kenny McCormick",
+            "description": "Kenny is most famous for dying in almost every episode in the first five seasons of South Park.",
+            "image": "images/kenny.png"
+        },
+        {
+            "name": "Kyle Broflovski",
+            "description": "Kyle Broflovski is one of South Park's main characters. He is often noted for his intelligence",
+            "image": "images/kyle.png"
+        },
+        {
+            "name": "Stan Marsh",
+            "description": "Stanley 'Stan' Marsh is one of South Park's main characters.",
+            "image": "images/stan.png"
+        }
+    ]
+}
